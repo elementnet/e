@@ -25,6 +25,8 @@ a#file-menu, a#edit-menu, a#share-menu, a#help-btn {
     font-size: 1.2em;
     font-weight: 600;
     margin-left: 20px;
+    position: absolute;
+    z-index: 1;
 }
 div#ctrl-btns {
     float: right;
@@ -61,5 +63,6 @@ div.non-editable-file {
     display: inline-block;
 }
 #preview-iframe {
-    border: none;   
+    border: none;
+    position: absolute;
 }
